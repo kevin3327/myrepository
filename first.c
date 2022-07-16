@@ -3,8 +3,10 @@
 int main()
 {
 	int a,b;
-	a = 1;
+	int c;
+
+	c = 3;
 	b = 2;
-	return a =b;
+	return c+b;
 
 }
