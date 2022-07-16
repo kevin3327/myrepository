@@ -18,7 +18,7 @@
 
 ---
 
-####无序列表
+#### 无序列表
 * 物理科学
 	* 粒子物理
 	* 原子物理
@@ -30,7 +30,7 @@
 	   	* Http/Https
 		* Tcp/Udp
 
-####有序列表
+#### 有序列表
 1. 单机游戏
 	1. FPS
 		1. PUBG
@@ -39,3 +39,51 @@
 2. 电子商城
 	* 京东
 	* 淘宝
+
+#### 引用
+> 一级引用
+>> 二级引用
+>>> 三级引用
+>>>> 四级引用
+
+#### 表格
+游戏名|游戏价格|游戏排行
+--|:--:|--:|
+PUBG|$20|2
+APEX|$25|8
+CSGO|$0|5
+
+####超链接
+[Github官方网站](https://github.com "点击跳转到Github")
+
+####插入图片
+![ct.jpg](https://s2.loli.net/2022/07/16/w76k31TSadiYDUG.jpg)
+
+####插入代码片段
+```c
+#include <stdio.h>
+int main()
+{
+	int a,b;
+	a = 1;
+	b = 2;
+	return a+b;
+}
+```
+```bash
+	cd user/bin
+	echo "标准输出"
+```
+```cpp
+#include <iostream>
+int main()
+{
+	int a,b;
+	a = 1;
+	b = 2;
+	cout<<a+b<<endl;
+}
+```
+
+
+
